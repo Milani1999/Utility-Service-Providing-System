@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+  }
+
+  .columnService {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  .rowService:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .ServiceImage{
+    height: 110px;
+    width: 110px;
+    background-Size: cover;
+    background-Repeat: no-repeat;
+    background-Position: center;
+  }
+
+  hr{
+    border: 10px solid grey;
+    margin: 3% auto;
+  }
+
+ .serviceBtn{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 130px;
+    }
+  
+ .serviceBtn:hover{
+    color:rgb(12, 38, 184);
+ }
+
+  
+  .h1-service{
+    padding-top: 180px;
+    padding-left: 510px;
+    font-size: 100px;
+  }
+
+  .aboutService{
+    padding-top: 20px;
+    padding-left: 480px;
+  }
+
+  .DescService{
+    font-size: 20px;
+    padding: 30px;
+    padding-left: 500px;
+  }
+
+  @media screen and (max-width: 1200px) {
+
+    .serviceBtn{
+      margin-bottom: -550px;
+    }
+    
+    .h1-service{
+      padding-top: 210px;
+      padding-left: 350px;
+      font-size: 70px;
+    }
+
+    .aboutService{
+      padding-left: 300px;
+    }
+
+    .DescService{
+      padding-left: 300px;
+    }
+
+  }
+  @media screen and (max-width: 900px) {
+    .columnService {
+      width: 33%;
+    }
+    
+    .h1-service{
+      padding-top: 210px;
+      padding-left: 300px;
+      font-size: 70px;
+    }
+
+    .aboutService{
+      padding-left: 50px;
+    }
+
+    .DescService{
+      padding-left: 70px;
+    }
+
+    .serviceBtn{
+      margin-top: 130px;
+    }
+
+  }
+  @media screen and (max-width: 600px) {
+    .columnService {
+      width: 100%;
+    }
+
+    .h1-service{
+      padding-top: 210px;
+      padding-left: 135px;
+      font-size: 70px;
+    }
+
+    .aboutService{
+      padding-left: 50px;
+    }
+
+    .DescService{
+      padding-left: 70px;
+    }
+
+    .serviceBtn{
+      margin-top: 130px;
+    }
+
+  }
+
+  
