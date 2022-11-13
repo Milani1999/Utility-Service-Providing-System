@@ -1,0 +1,88 @@
+.GasHome {
+    box-sizing: border-box;
+  }
+  
+  
+  .h1-Gas{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 80px;
+    margin: 0;
+    padding-left: 500px;
+    padding-top: 50px;
+  }
+  
+  .Image:hover{
+    border: 3px solid black;
+  }
+  
+  .columnGas {
+    float: left;
+    width: 30%;
+    padding: 20px;
+    height: 250 px; 
+    
+  }
+  .column2Gas {
+    float: left;
+    width: 70%;
+    padding: 40px;
+    height: 250px; 
+  }
+  
+  .rowGas:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .titleGas{
+    font-weight: bold;
+    align-items:center;
+    padding-bottom: 20px;
+    font-size: 30px;
+  
+  }
+  
+  .button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: dimgray;
+    margin: 2% auto;
+    margin-left: 30%;
+    cursor: pointer;
+    color: antiquewhite;
+    font-size: 15px;
+  }
+  
+  .button:hover{
+    background-color: rgb(47, 107, 102);
+  }
+  
+  hr{
+    border: 8px solid rgb(97, 95, 95);
+  }
+
+  @media screen and (max-width: 1200px) {
+    .columnGas, .column2Gas {
+      width: 100%;
+    }
+
+    .h1-Gas{
+      font-size: 70px;
+      padding-left: 40px;
+      padding-top: 180px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .columnGas, .column2Gas {
+      width: 100%;
+    }
+
+    .h1-Gas{
+      font-size: 70px;
+      padding-left: 40px;
+      padding-top: 180px;
+    }
+  }
