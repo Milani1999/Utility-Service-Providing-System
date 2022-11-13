@@ -1,0 +1,272 @@
+.workerPro,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.rowWorker {
+  padding-top: 70px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 50px;
+  background-color: #021f20;
+}
+
+.columnWorker1 {
+  float: left;
+  width: 40%;
+  margin-top: 10px;
+  padding-top: 300px;
+  padding-left: 50px;
+  height: 530px;
+  background-color: rgb(255, 255, 255);
+}
+
+.Worker_Profile {
+  margin-top: -320px;
+  font-size: 50px;
+  padding: 70px;
+  background-image: linear-gradient(165deg,
+      #06632d 0%,
+      #302a21 29%,
+      #b21f1f 67%,
+      #1a2a6c 100%);
+
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.Image_Worker {
+  width: 200px;
+  height: 200px;
+  border: 4px solid #021f20;
+  margin-left: 40px;
+  box-shadow: 0 8px 8px rgba(97, 93, 93, 0.1);
+}
+
+.columnWorker2 {
+  float: left;
+  width: 60%;
+  padding: 10px;
+  height: 550px;
+}
+
+.rowWorker:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.containerWorker {
+  display: flex;
+  flex-direction: column;
+  position: inlin e;
+  width: 500px;
+  height: 530px;
+  word-break: break-all;
+}
+
+.bloc-tabs {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  border: none;
+}
+
+.tabs {
+  padding: 15px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  width: 50%;
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+}
+
+.tabs:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.active-tabs {
+  background: white;
+  font-weight: bold;
+}
+
+.active-tabs::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 35%;
+  height: 5px;
+  background: rgb(123, 123, 131);
+}
+
+.tabs:hover {
+  color: #059196;
+}
+
+#button-Login-worker {
+  border: none;
+}
+
+.contentWorker-tabs {
+  flex-grow: 1;
+}
+
+.content {
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.WorkerProTitle {
+  padding: 20px 0 20px 100px;
+  font-size: 30px;
+}
+
+#Worker_bio {
+  margin-top: 30px;
+}
+
+.active-content {
+  display: block;
+}
+
+.lbl-worker,
+.Worker_Desc {
+  font-weight: bold;
+  display: inline-block;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.lbl-worker {
+  text-align: left;
+  width: 40%;
+}
+
+.Worker_Desc {
+  text-align: left;
+  width: 60%;
+}
+
+/* sub tabs */
+
+
+.sub-bloc-tabs {
+  display: flex;
+  width: 100%;
+}
+
+.newBlock {
+  overflow: hidden;
+}
+
+.sub {
+  padding: 15px;
+  text-align: center;
+  width: 33.33%;
+  background: rgba(128, 128, 128, 0.075);
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+}
+
+.sub:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.active-sub {
+  background: white;
+  border-bottom: 1px solid transparent;
+}
+
+.active-sub::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 5px;
+  background: rgb(88, 147, 241);
+}
+
+button {
+  border: none;
+
+}
+
+.sub_content-tabs {
+  flex-grow: 1;
+}
+
+.sub_content {
+  background: white;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.sub_content h2 {
+  padding: 0px 0 5px 0px;
+}
+
+.sub_content p {
+  width: 100%;
+  height: 100%;
+}
+
+.active-sub_content {
+  display: block;
+}
+
+.firstCol {
+  width: 40%;
+}
+
+.secCol {
+  width: 60%;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+}
+
+th,
+td {
+  padding: 5px;
+}
+
+@media screen and (max-width: 600px) {
+
+  .columnWorker1,
+  .columnWorker2 {
+    width: 100%;
+  }
+}
