@@ -1,0 +1,199 @@
+:root {
+    --green: #0b5e34;
+    --black: #333;
+    --white: #fff;
+    --bg-color: rgb(215, 222, 224);
+    --border: .1rem solid var(--black);
+ }
+ 
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+ }
+ 
+ 
+ .btn-Admin{
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 8px;
+    font-size: 15px;
+    padding: 10px 10px;
+    background: var(--green);
+    color: var(--white);
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    border: none;
+ }
+ 
+ .btn-Admin:hover {
+    background: var(--black);
+ }
+ 
+ .message {
+    display: block;
+    background: var(--bg-color);
+    padding: 24px 16px;
+    font-size: 15px;
+    color: var(--black);
+    margin-bottom: 32px;
+    text-align: center;
+ }
+ 
+ .containerForAdmin {
+    padding: 32px;
+    margin: 0 auto;
+    padding-top: 50px;
+ }
+ 
+ .admin-Admin-form-container.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+ 
+ }
+ 
+ .admin-Admin-form-container form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 32px;
+    border-radius: 8px;
+    background: var(--bg-color);
+ }
+ 
+ .admin-Admin-form-container form h3 {
+    text-transform: uppercase;
+    color: var(--black);
+    margin-bottom: 16px;
+    text-align: center;
+    font-size: 20px;
+ }
+ 
+ .admin-Admin-form-container form .box {
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 15px;
+    margin: 10px 0;
+    background: var(--white);
+    text-transform: none;
+ }
+ 
+ .Admin-display {
+    margin: 2rem 0;
+ }
+ 
+ .Admin-display .Admin-display-table {
+    width: 100%;
+    text-align: center;
+ }
+ 
+ .Admin-display .Admin-display-table thead {
+    background: var(--bg-color);
+ }
+ 
+ .Admin-display .Admin-display-table th {
+    text-transform: capitalize;
+    padding: 16px;
+    font-size: 20px;
+ }
+ 
+ 
+ .Admin-display .Admin-display-table td {
+    padding: 3px;
+    font-size: 15px;
+    border-bottom: var(--border);
+ }
+ 
+ .Admin-display .Admin-display-table .btn-Admin:first-child {
+    margin-top: 0;
+ }
+ 
+ .Admin-display .Admin-display-table .btn-Admin:last-child {
+    background: rgb(185, 26, 58);
+ }
+ 
+ .Admin-display .Admin-display-table .btn-Admin:last-child:hover {
+    background: var(--black);
+ }
+ 
+ #HideOpen{
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transform: translateX(550px);
+ }
+ 
+ .btn-Admin-add{
+    display: block;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 8px;
+    margin-left: 1190px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    padding: 10px 10px;
+    background: var(--green);
+    color: var(--white);
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    border: none;
+    width: 90px;
+ }
+ 
+ .btn-Admin-add:hover{
+    background-color: var(--black);
+ }
+
+ .Admin-heading{
+   padding-left: 300px;
+   padding-top: 100px;
+   font-size: 100px;
+   color: rgb(247, 247, 247);
+ }
+
+ .AdminList{
+   padding-left: 580px;
+   padding-top: 60px;
+   font-size: 30px;
+ 
+ }
+
+ .li-admin{
+     color: rgb(247, 247, 247);
+ }
+
+ .li-admin:hover{
+   color: #596805;
+ }
+
+
+ .row-admin{
+   background: #021f20;
+   height: 100vh;
+ }
+
+ .btn-Admin-menu{
+   display: block;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 8px;
+    margin-left: 580px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    padding: 10px 10px;
+    background: rgb(56, 56, 65);
+    color: var(--white);
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    border: none;
+    width: 90px;
+ }
