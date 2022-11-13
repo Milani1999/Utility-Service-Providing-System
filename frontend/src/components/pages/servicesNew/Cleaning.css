@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  .h1-clean{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 80px;
+    margin: 0;
+    padding-left: 900px;
+    padding-top: 100px;
+  }
+  
+  .ImageClean:hover{
+    border: 3px solid black;
+  }
+  
+  .columnClean {
+    float: left;
+    width: 30%;
+    padding: 20px;
+    height: 450px; 
+    
+  }
+  .column2Clean {
+    float: left;
+    width: 70%;
+    padding: 40px;
+    height: 300px; 
+  }
+  
+  .rowClean:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .titleClean{
+    font-weight: bold;
+    align-items:center;
+    padding-bottom: 20px;
+    font-size: 30px;
+  
+  }
+  
+  .button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: dimgray;
+    margin: 2% auto;
+    margin-left: 30%;
+    cursor: pointer;
+    color: antiquewhite;
+    font-size: 15px;
+  }
+  
+  .button:hover{
+    background-color: rgb(47, 107, 102);
+  }
+  
+  hr{
+    border: 8px solid rgb(97, 95, 95);
+  }
+
+  
+  @media screen and (max-width: 1200px) {
+    .columnClean, .column2Clean {
+      width: 100%;
+      padding: 0;
+      padding-left: 50px;
+    }
+
+    .h1-clean{
+      font-size: 70px;
+      padding-left: 70px;
+      padding-top: 90px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .columnClean, .column2Clean {
+      width: 100%;
+      padding: 0;
+      padding-left: 50px;
+      height: 350px;
+    }
+
+    .h1-clean{
+      font-size: 70px;
+      padding-left: 70px;
+      padding-top: 90px;
+    }
+  }
