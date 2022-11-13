@@ -1,0 +1,100 @@
+.ElecHome {
+    box-sizing: border-box;
+  }
+  
+  
+  .h1-Elec{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 80px;
+    margin: 0;
+    padding-left: 650px;
+    padding-top: 100px;
+  }
+  
+  .ImageElec:hover{
+    border: 3px solid black;
+  }
+  
+  .columnElec {
+    float: left;
+    width: 30%;
+    padding: 20px;
+    height: 300px; 
+    
+  }
+  .column2Elec {
+    float: left;
+    width: 70%;
+    padding: 40px;
+    height: 300px; 
+  }
+  
+  .rowElec:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .titleElec{
+    font-weight: bold;
+    align-items:center;
+    padding-bottom: 20px;
+    font-size: 30px;
+  
+  }
+  
+  .buttonElec{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: dimgray;
+    margin: 2% auto;
+    margin-left: 30%;
+    cursor: pointer;
+    color: antiquewhite;
+    font-size: 15px;
+  }
+  
+  .buttonElec:hover{
+    background-color: rgb(47, 107, 102);
+  }
+
+  ul{
+    padding-left: 30px;
+  }
+  
+  hr{
+    border: 8px solid rgb(97, 95, 95);
+  }
+
+  @media screen and (max-width: 1200px) {
+    .columnElec, .column2Elec {
+      width: 100%;
+    }
+
+    .h1-Elec{
+      font-size: 70px;
+      margin: 0;
+      padding-top: 150px;
+      padding-left: 90px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .columnElec, .column2Elec {
+      width: 100%;
+      height: 300px;
+    }
+
+    .h1-Elec{
+      font-size: 70px;
+      margin: 0;
+      padding-top: 150px;
+      padding-left: 90px;
+    }
+
+    .titleElec{
+      margin-top: -40px;
+    }
+
+  }
