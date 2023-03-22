@@ -1,10 +1,15 @@
 #front end
+
 cd fronend
+
 npm start
 
 #backend
+
 create a database named utilityservicesystem
+
 cd backend
+
 node index.js
 
 # Getting Started with Create React App
