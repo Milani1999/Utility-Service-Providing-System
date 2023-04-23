@@ -1,3 +1,5 @@
+after downloading the project folder install node modules (npm install)
+
 #front end
 
 cd fronend
